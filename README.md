@@ -61,7 +61,7 @@ queries for the supported databases.
 
 ## Installation
 
-	go get -u github.com/gernest/ngorm
+	go get -u github.com/ngorm/ngorm
 
 ## Connecting to a database
 
@@ -78,7 +78,7 @@ import (
 	// this example I am using the ql driver, this should work similar for the
 	// other supported databases.
 	_ "github.com/cznic/ql/driver"
-	"github.com/gernest/ngorm"
+	"github.com/ngorm/ngorm"
 )
 
 func main() {
